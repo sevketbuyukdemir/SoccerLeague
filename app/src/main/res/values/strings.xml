@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Soccer League</string>
+    <string name="application_name">Soccer League</string>
+
+    <!-- Main Activity Strings -->
+    <string name="tv_network_text">Network connection lost. Try Again.</string>
+    <string name="main_activity_recycler_view_adapter_dataset_is_null">Null</string>
+    <string name="soccer_team_list_null">Soccer Team List is Null</string>
+    <string name="back_pressed_title">Exit</string>
+    <string name="back_pressed_message">If you want to exit click yes, else no.</string>
+    <string name="back_pressed_negative">NO</string>
+    <string name="back_pressed_positive">YES</string>
+    <string name="fixture_floating_action_button_description">Fixture</string>
+
+    <!-- Fixture Activity Strings -->
+
+</resources>

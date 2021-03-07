@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#00FFD8</color>
+    <color name="purple_500">#00E7C4</color>
+    <color name="purple_700">#00CFAF</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="tv_network_text_color">#FF0000</color>
+
+    <!-- Splash Activity Colors -->
+    <color name="splash_layout_background_start">#0835A1</color>
+    <color name="splash_layout_background_center">#054B6A</color>
+    <color name="splash_layout_background_end">#0F6E71</color>
+    <color name="splash_layout_text_color">#FFFFFF</color>
+
+    <!-- Main Activity Colors -->
+    <color name="activity_main_background">#00CFAF</color>
+    <color name="floating_button_background_color">#11554B</color>
+    <color name="floating_button_ripple_color">#00E7C4</color>
+    <color name="tv_team_name_color">#FF000000</color>
+
+    <!-- Fixture Activity Colors -->
+    <color name="fixture_layout_background_color">#00E7C4</color>
+    <color name="fixture_layout_tab_layout_background_color">#00CFAF</color>
+    <color name="fixture_layout_tab_layout_text_color">#131212</color>
+    <color name="fixture_layout_tab_layout_selected_text_color">#FF000000</color>
+    <color name="fragment_match_item_background">#00CFAF</color>
+    <color name="fragment_match_item_text_color">#FF000000</color>
+
+</resources>
