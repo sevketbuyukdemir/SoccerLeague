@@ -1,4 +1,4 @@
-# A project of Soccer Leauge
+# A project of Soccer League
   Imagine that, we want to organize a soccer league in a company. To manage league matches,
 we want to develop an android application. This application will be used to determine match
 fixture and needs to have below functionalities;
@@ -10,10 +10,32 @@ we swipe from left to right it should show the previous week when we swipe from 
 it should show next week matches)
 
 ## Important Note
-I can not find any free API for query team names from Web Service. Then, i decided for use json-server.
+I cannot find any free API for query team names from Web Service. Then, i decided for use json-server.
 This library provide create local fake server. You can reach more information from link. 
 
 json-server link : https://github.com/typicode/json-server
+
+## Quick installation for json-server
+
+For install:
+```console
+npm install -g json-server
+```
+For localhost test:
+```console
+json-server --watch teams.json --port 8000
+```
+For fake server over wifi:
+(Change XXX with your local IP)
+
+```console
+json-server --host 192.168.1.XXX teams.json --port 8000
+```
+## After installation json-server
+
+For testing change 3 // TODO in codes. Change BASE_URL, SerializedNames and path informations
+according to your API or your file which is published with json-server.
+
 
 # teams.json
 My test data for this application. This data contains TFF Super League Teams. Copy-paste your json file and
@@ -46,27 +68,6 @@ publish with json-server.
   ]
 }
 ```
-
-## Quick installation for json-server
-
-For install:
-```console
-npm install -g json-server
-```
-For localhost test:
-```console
-json-server --watch teams.json --port 8000
-```
-For fake server over wifi:
-(Change XXX with your local IP)
-
-```console
-json-server --host 192.168.1.XXX teams.json --port 8000
-```
-## After installation json-server
-
-For testing change 3 // TODO in codes. Change BASE_URL, SerializedNames and path informations
-according to your API or your file which is published with json-server.
 
 Best regards,
 Have a good day.
